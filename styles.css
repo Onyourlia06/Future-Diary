@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    
+    width: 100%;
+    height: 100vh;
+    background: #f0e7e5;
+}
+
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #c56869;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 25px;
+}
+
+span{
+    color: #db9f95;
+}
+
+.detel p{
+    color: #555;
+    line-height: 25px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+
+#about{ 
+    width: 100%;  
+    padding: 20px ;
+    background: #eedbd8;
+   
+}
+
+.about img{
+    height: 500px;
+    width: 500px;
+    margin-top: 150px;
+}
+
+.about-text{
+    width: 500px;
+    margin-top: 100px;
+}
+
+.main{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: #212121;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: #212121;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: #555;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+#project{
+    background: #f0e7e5;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: #212121;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    padding: 20px 35px;
+    background: #db9f95;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #c56869;
+}
+
+h5{
+    color: #212121;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: #555;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: #c56869;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #eedbd8;
+    cursor: pointer;
+}
+
+footer{
+   position: relative;
+   width: 100%;
+   height: 400px;
+   background: #db9f95;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: #212121;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #db9f95;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fffefe;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.button-arrow{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.button{
+background-color: #c56869;
+  border: none;
+  color: white;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
