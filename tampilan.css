@@ -8,7 +8,7 @@
 .hero{
     
     max-width: 100%;
-    height: autovh;
+    height: auto;
     background: #f0e7e5;
 }
 
