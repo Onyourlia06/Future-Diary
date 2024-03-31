@@ -60,36 +60,22 @@ span{
     color: #555;
     line-height: 25px;
     text-align: justify;
+    width: 45%;
 }
 
-.images{
+.images {
     width: 45%;
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    right: 1%;
-    
-}
-.images img{
-    height: 100%;
-    position: absolute;
-    left: 72%;
-    bottom: 0;
-    transform: translateX(-50%);
-}
-
-.gambar {
-    width: 45%;
-    height: 80%;
+    height: 50%;
     position: absolute;
     bottom: 0;
     right: 700px;
   }
 
-  .gambar img {
-    height: 100%;
+  .images img {
+    height: 130%;
     position: absolute;
-    left: 120%;
+    left: 150%;
     bottom: 0;
     transform: translateX(-50%);
+    top: -40%;
   }
