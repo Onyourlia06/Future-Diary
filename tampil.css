@@ -60,6 +60,7 @@ span{
     color: #555;
     line-height: 25px;
     text-align: justify;
+    width: 30%;
 }
 
 .images{
@@ -71,7 +72,7 @@ span{
     
 }
 .images img{
-    height: 100%;
+    height: 90%;
     position: absolute;
     left: 35%;
     bottom: 0;
