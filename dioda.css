@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    
+    max-width: 100%;
+    height: auto;
+    background: #f0e7e5;
+}
+
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{
+    color: #c56869;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 3%;
+    text-align: justify;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 25px;
+}
+
+span{
+    color: #db9f95;
+}
+.detel h3{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 10px;
+    text-align: justify;
+    width: 45%;
+}
+
+.detel p{
+    color: #555;
+    line-height: 25px;
+    text-align: justify;
+    width: 45%;
+}
+.gambar {
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 700px;
+  }
+
+  .gambar img {
+    height: 45%;
+    position: absolute;
+    left: 150%;
+    bottom: 0;
+    transform: translateX(-50%);
+    top: -30%;
+  }
+
+.images {
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 700px;
+  }
+
+  .images img {
+    height: 45%;
+    position: absolute;
+    left: 150%;
+    bottom: 0;
+    transform: translateX(-50%);
+    top: 35%;
+  }
+
+.grafanoda {
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 700px;
+  }
+
+  .grafanoda img {
+    height: 45%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    top: 90%;
+  }
+
+.katoda {
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 700px;
+  }
+
+  .katoda img {
+    height: 45%;
+    position: absolute;
+    left: 150%;
+    bottom: 0;
+    transform: translateX(-50%);
+    top: 173%;
+}
+
+.grafkato {
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 700px;
+  }
+
+  .grafkato img {
+    height: 45%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    top: 230%;
+  }
+
+
